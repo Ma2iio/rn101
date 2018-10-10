@@ -24,7 +24,7 @@ const enhance = compose(
     withState('dog', 'setDog', 'cat'),
     withHandlers({
         goToSetting: props => () => {
-            props.setCat('cat')
+            console.log('1111111')
         },
     }),
 )
